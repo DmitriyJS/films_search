@@ -10,7 +10,7 @@ const Main = () => {
   const [isLoading, setLoading] = useState(true);
 
   function fetchQuery(value = `matrix`, searchType = ``) {
-    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${value}${searchType}`)
+    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${value}${searchType}`)
       .then((res) => res.json())
       .then((data) => {
         setMovies(data.Search ? data.Search : []);
