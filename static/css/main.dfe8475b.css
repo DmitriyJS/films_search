@@ -1,0 +1,2 @@
+*{box-sizing:border-box}html{background:#fff;font-family:sans-serif}body{margin:0}main{margin-top:6rem}nav{padding:0 1rem}.content{min-height:calc(100vh - 134px);padding:1.5rem 0}.movies{grid-gap:1rem;display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}.search-btn{position:absolute;right:15px;top:0}.radio-btns{display:flex;justify-content:space-between}
+/*# sourceMappingURL=main.dfe8475b.css.map*/
